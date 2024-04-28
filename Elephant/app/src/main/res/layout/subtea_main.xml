@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <CheckBox
+        android:id="@+id/aa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="녹차(hot) - 2200원"
+        android:onClick="checked"/>
+    <CheckBox
+        android:id="@+id/bb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="허브티(hot) - 2200원"
+        android:onClick="checked"/>
+    <CheckBox
+        android:id="@+id/cc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="국화차(hot) - 2200원"
+        android:onClick="checked"/>
+    <CheckBox
+        android:id="@+id/dd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="홍차(hot) - 2200원"
+        android:onClick="checked"/>
+    <CheckBox
+        android:id="@+id/ee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="유자차(hot) - 2800원"
+        android:onClick="checked"/>
+    <CheckBox
+        android:id="@+id/ff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="자몽차(hot) - 2800원"
+        android:onClick="checked"/>
+    <CheckBox
+        android:id="@+id/gg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="레몬차(hot) - 2800원"
+        android:onClick="checked"/>
+    <CheckBox
+        android:id="@+id/hh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="녹차(ice) - 2500원"
+        android:onClick="checked"/>
+    <CheckBox
+        android:id="@+id/ii"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="허브티(ice) - 2500원"
+        android:onClick="checked"/>
+    <CheckBox
+        android:id="@+id/jj"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="국화차(ice) - 2500원"
+        android:onClick="checked"/>
+    <CheckBox
+        android:id="@+id/kk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="홍차(ice) - 2500원"
+        android:onClick="checked"/>
+    <CheckBox
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="유자차(ice) - 3100원"
+        android:onClick="checked"/>
+    <CheckBox
+        android:id="@+id/mm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="자몽차(ice) - 3100원"
+        android:onClick="checked"/>
+    <CheckBox
+        android:id="@+id/nn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="레몬차(ice) - 3100원"
+        android:onClick="checked"/>
+    <CheckBox
+        android:id="@+id/oo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="복숭아 아이스티 - 2200원"
+        android:onClick="checked"/>
+    <CheckBox
+        android:id="@+id/pp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="레몬 아이스티 - 2200원"
+        android:onClick="checked"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="결제하기"/>
+
+</LinearLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#000000"
+        android:id="@+id/text1">
+    </TextView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="7px"
+        android:background="#8CB864"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="[CAFE 소식]"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:id="@+id/text2">
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="*** 개교 60주년 기념 조합원 모집이벤트 ***"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:id="@+id/text3">
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="이벤트 기간내 조합원 가입을 하시면"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:layout_gravity="center"
+        android:id="@+id/text4">
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="60주년 기념 리유저블 텀블러를 함께 드립니다."
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:layout_gravity="center"
+        android:id="@+id/text5">
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="#SKU 생협 #성결대 60주년 #조합원 모집 #리유저블"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:layout_gravity="center"
+        android:id="@+id/text6">
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="#커피쿠폰도 드려요 #재고소진시까지"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:layout_gravity="center"
+        android:id="@+id/text7">
+    </TextView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10px"
+        android:background="#8CB864" />
+
+</LinearLayout>

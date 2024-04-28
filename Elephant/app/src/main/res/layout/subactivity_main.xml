@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <CheckBox
+        android:id="@+id/a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="에스프레소(hot) - 1500원"
+        android:onClick="checked"/>
+    <CheckBox
+        android:id="@+id/c"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="아메리카노(hot) - 1500원"
+        android:onClick="checked"/>
+    <CheckBox
+        android:id="@+id/d"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="헤이즐넛(hot) - 2000원"
+        android:onClick="checked"/>
+    <CheckBox
+        android:id="@+id/e"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="카푸치노(hot) - 2500원"
+        android:onClick="checked"/>
+    <CheckBox
+        android:id="@+id/f"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="아이리쉬비엔나(hot) - 2500원"
+        android:onClick="checked"/>
+    <CheckBox
+        android:id="@+id/g"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="카페라떼(hot) - 2500원"
+        android:onClick="checked"/>
+    <CheckBox
+        android:id="@+id/h"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="카페모카(hot) - 3000원"
+        android:onClick="checked"/>
+    <CheckBox
+        android:id="@+id/i"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="카페카라멜로(hot) - 3000원"
+        android:onClick="checked"/>
+    <CheckBox
+        android:id="@+id/j"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="카페카라멜 마끼야또(hot) - 3000원"
+        android:onClick="checked"/>
+    <CheckBox
+        android:id="@+id/k"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="아메리카노(ice) - 1800원"
+        android:onClick="checked"/>
+    <CheckBox
+        android:id="@+id/l"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="헤이즐넛(ice) - 2300원"
+        android:onClick="checked"/>
+    <CheckBox
+        android:id="@+id/m"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="카푸치노(ice) - 2800원"
+        android:onClick="checked"/>
+    <CheckBox
+        android:id="@+id/n"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="아이리쉬비엔나(ice) - 2800원"
+        android:onClick="checked"/>
+    <CheckBox
+        android:id="@+id/o"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="카페라떼(ice) - 2800원"
+        android:onClick="checked"/>
+    <CheckBox
+        android:id="@+id/p"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="카페모카(ice) - 3300원"
+        android:onClick="checked"/>
+    <CheckBox
+        android:id="@+id/q"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="카페카라멜로(ice) - 3300원"
+        android:onClick="checked"/>
+    <CheckBox
+        android:id="@+id/r"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="카페카라멜 마끼야또(ice) - 3300원"
+        android:onClick="checked"/>
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="결제하기"/>
+
+</LinearLayout>

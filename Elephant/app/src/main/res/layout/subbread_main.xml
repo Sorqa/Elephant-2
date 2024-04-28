@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <CheckBox
+        android:id="@+id/au"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="초코링 도너츠 - 1500원"
+        android:onClick="checked"/>
+    <CheckBox
+        android:id="@+id/bu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="초코머핀 - 2000원"
+        android:onClick="checked"/>
+    <CheckBox
+        android:id="@+id/cu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="모카번 - 2000원"
+        android:onClick="checked"/>
+    <CheckBox
+        android:id="@+id/du"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="크림단팥빵 - 2200원"
+        android:onClick="checked"/>
+    <CheckBox
+        android:id="@+id/eu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="베이글칩(갈릭) - 2200원"
+        android:onClick="checked"/>
+    <CheckBox
+        android:id="@+id/fu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="베이글칩(허니) - 2200원"
+        android:onClick="checked"/>
+    <CheckBox
+        android:id="@+id/gu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="잉글리쉬머핀 - 2900원"
+        android:onClick="checked"/>
+    <CheckBox
+        android:id="@+id/hu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="크로크무슈 - 3300원"
+        android:onClick="checked"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="결제하기"/>
+
+</LinearLayout>
